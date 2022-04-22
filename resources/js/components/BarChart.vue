@@ -110,6 +110,7 @@
           scales: {
             yAxes: [{
               ticks: {
+                beginAtZero: true,
                 maxTicksLimit: 5,
                 fontSize: 10,
                 callback: function(num, index, values) {
